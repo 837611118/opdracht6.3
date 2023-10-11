@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /
+    padding : 10px;
+    color: white; 
+}
+
+.logo, .login, nav {
+    flex: -10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+li {
+    margin-right: 10px;
+}
+
+.div{
+    display: none;
+}
